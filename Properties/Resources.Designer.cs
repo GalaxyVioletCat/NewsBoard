@@ -70,6 +70,15 @@ namespace NewsBoard.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Ads, News, SPA.
+        /// </summary>
+        public static string Keywords {
+            get {
+                return ResourceManager.GetString("Keywords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Ru.
         /// </summary>
         public static string Language {

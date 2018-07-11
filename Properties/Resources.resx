@@ -120,6 +120,9 @@
   <data name="Author" xml:space="preserve">
     <value>Anna</value>
   </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Ads, News, SPA</value>
+  </data>
   <data name="Language" xml:space="preserve">
     <value>Ru</value>
   </data>
