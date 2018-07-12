@@ -5,5 +5,8 @@
     templateUrl: './header.component.html'
 })
 export class HeaderComponent {
-    constructor() { }
+    name: string;
+    constructor() {
+        this.name = 'Sam';
+    }
 }
