@@ -1,12 +1,10 @@
 ﻿import { Component } from '@angular/core';
 
 @Component({
-    selector: 'header-component',
-    templateUrl: './header.component.html'
+    selector: 'footer-component',
+    templateUrl: './footer.component.html'
 })
-export class HeaderComponent {
-    name: string;
-    constructor() {
-        this.name = 'Sam';
-    }
+export class FooterComponent {
+
+    constructor() { }
 }
