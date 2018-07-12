@@ -4,13 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
+import { HeaderComponent } from './components/shared/header/header.component';
 import { AppComponent } from './components/app/app.component';
 import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        HomeComponent
+        HomeComponent,
+        HeaderComponent
     ],
     imports: [
         CommonModule,
